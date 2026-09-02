@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+ double salario, cheque1, cheque2, saldo, taxa = 0.0038;
+    printf("Digite salario e valores dos dois cheques: "); scanf("%lf %lf %lf", &salario, &cheque1, &cheque2);
+    saldo = salario - cheque1 - cheque1*taxa - cheque2 - cheque2*taxa;
+    printf("Saldo atual = R$ %.2f\n", saldo);
+}

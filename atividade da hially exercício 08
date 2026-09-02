@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(void) {
+ double deposito, taxa, rendimento;
+    printf("Digite o deposito e a taxa de juros (em %%): ");
+    scanf("%lf %lf", &deposito, &taxa);
+    rendimento = deposito * taxa / 100.0;
+    printf("Rendimento = R$ %.2f\nTotal = R$ %.2f\n", rendimento, deposito + rendimento);
+}
