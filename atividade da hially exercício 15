@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+   double fabrica, percentual_lucro, percentual_imposto, lucro, imposto;
+    printf("Digite o preco de fabrica, o %% de lucro e o %% de impostos: ");
+    scanf("%lf %lf %lf", &fabrica, &percentual_lucro, &percentual_imposto);
+    lucro = fabrica * percentual_lucro / 100.0;
+    imposto = fabrica * percentual_imposto / 100.0;
+    printf("Lucro = R$ %.2f\nImpostos = R$ %.2f\nPreco final = R$ %.2f\n", lucro, imposto, fabrica + lucro + imposto);
+}

@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(void) {
+double base, gratificacao, imposto;
+    printf("Digite o salario-base: "); scanf("%lf", &base);
+    gratificacao = base * 0.05;
+    imposto = base * 0.07;
+    printf("Salario a receber = R$ %.2f\n", base + gratificacao - imposto);
+}

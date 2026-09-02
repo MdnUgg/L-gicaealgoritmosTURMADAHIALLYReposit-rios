@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+double saco_kg, gramas_por_gato, restante;
+    printf("Digite o peso do saco (kg) e a quantidade diaria por gato (g): ");
+    scanf("%lf %lf", &saco_kg, &gramas_por_gato);
+    restante = saco_kg * 1000.0 - 2.0 * gramas_por_gato * 5.0;
+    printf("Racao restante apos cinco dias = %.2f g (%.2f kg)\n", restante, restante/1000.0);
+}
