@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main(void) {
+ double base;
+    printf("Digite o salario-base: "); scanf("%lf", &base);
+    printf("Salario a receber = R$ %.2f\n", base + 50.0 - base * 0.10);
+}

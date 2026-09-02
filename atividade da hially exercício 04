@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main(void) {
+    double salario;
+    printf("Digite o salario: "); scanf("%lf", &salario);
+    printf("Novo salario = R$ %.2f\n", salario * 1.25);
+}
+

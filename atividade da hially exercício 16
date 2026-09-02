@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+double horas, minimo, hora, bruto, imposto;
+    printf("Digite horas trabalhadas e valor do salario minimo: "); scanf("%lf %lf", &horas, &minimo);
+    hora = minimo / 2.0;
+    bruto = horas * hora;
+    imposto = bruto * 0.03;
+    printf("Salario bruto = R$ %.2f\nImposto = R$ %.2f\nA receber = R$ %.2f\n", bruto, imposto, bruto-imposto);
+}

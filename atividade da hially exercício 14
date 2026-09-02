@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main()
+{
+   int nascimento, atual;
+    printf("Digite o ano de nascimento e o ano atual: "); scanf("%d %d", &nascimento, &atual);
+    printf("Idade atual = %d\nIdade em 2050 = %d\n", atual-nascimento, 2050-nascimento);
+}

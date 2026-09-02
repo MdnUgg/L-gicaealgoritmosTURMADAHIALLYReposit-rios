@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+ double pes;
+    printf("Digite uma medida em pes: "); scanf("%lf", &pes);
+    printf("Polegadas = %.2f\nJardas = %.2f\nMilhas = %.6f\n", pes*12.0, pes/3.0, pes/(3.0*1760.0));
+}
